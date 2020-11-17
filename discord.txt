@@ -1,0 +1,288 @@
+https://www.youtube.com/watch?v=qN43Dy6fGkk
+
+https://www.canal-u.tv/video/centre_d_enseignement_multimedia_universitaire_c_e_m_u/06_atelier_2_domain_driven_design_pour_de_vrai_pa2017.36403
+
+https://www.urbanisation-si.com/partir-du-bon-pied-dans-un-projet-informatique-la-modelisation-metier
+
+https://www.youtube.com/watch?v=o3thkx3EuiA
+
+https://openclassrooms.com/fr/courses/5647281-appliquez-le-principe-du-domain-driven-design-a-votre-application/6833811-implementez-votre-modele-de-domaine
+
+https://openclassrooms.com/fr/courses/3938146-appropriez-vous-la-demarche-ux-en-pratique/4358521-tracez-les-wireframes-pour-le-site-responsive#r-4365247
+
+https://www.hubspot.fr/make-my-persona
+
+https://www.youtube.com/watch?v=_iodOh-QTww&feature=youtu.be
+
+https://app.lucidchart.com/users/login#/login
+
+FreeCourseSite
+
+https://app.moqups.com/login
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////
+
+Dans notre projet 3, il n'y a pas de code. Le DDD est explicitement demandé dans le sujet.
+Ce ne sont pas ses aspects techniques qui sont à prendre en compte, mais uniquement la thématique de l'ubiquitous language.
+Livrables
+Un zip avec votre documentation de spécifications terminée, regroupant les éléments suivants : 
+-  un modèle du domaine métier de l'application de mentorat ;
+-  une nomenclature du domaine métier pouvant être partagée avec l'équipe ;
+- une liste des fonctionnalités (basées sur les objectifs de l’application) et leurs cas d'utilisation et critères d'acceptation correspondants ;
+- les écrans wireframes (un par fonctionnalité) ;
+-  une justification du choix de langage de programmation.
+
+
+Sinon pour une description des attentes sur ce model de domaine, c'est un diagramme de classe simplifié (juste le nom en fait lol) qui ne représente que les intéractions entre les composants identifiés dans le listing de la nomenclature métier
+
+Par exemple : une relation entre mentor et session : Le Mentor PLANIFIE la session
+
+en fait c'est juste un carré avec le nom du composant (Session / Mentor, etc..).
+ 
+Pour les wireframes,  je me suis inspirée du système qu'à mis en place OpenClassrooms (Pour mesurer la relation)et je n'ai pas eu trop de mal pour les faires, c'était sur le modèle du domaine métier que je bloquais.
+
+
+Le modèle du domaine métier correspond aux user stories identifiées par l'étudiant.
+
+
+Concernant le modèle du domaine métier, faut-il le diagramme de cas d'utilisation et/ou de classe ?
+[19:32] [MA] Mathieu: Négatif 
+[19:33] Pierre [NEW DA JAVA P4]: C'est à dire ?
+[19:34] [MA] Mathieu: Il ne faut pas le diagramme de cas d'utilisation ni de classe
+[19:34] [MA] Mathieu: juste le Model de domaine métier
+[19:36] Pierre [NEW DA JAVA P4]: Ah ok. Mais comment je le fais du coup ? J'ai regardé le cours que tu nous à dis d'aller voir : il parle de ces diagrammes.
+[19:40] [MA] Mathieu: Tu fais une boîte par composant que tu as identifié dans la Nomenclature
+[19:40] Pierre [NEW DA JAVA P4]: Ok.*
+[19:41] [MA] Mathieu: ensuite, tu relies chacune des boîtes en fonction des intéractions entre elles
+[19:41] [MA] Mathieu: Boîte Mentor et Session avec un lien --> Planifie
+
+Pour les user stories, il faut une par fonctionnalité.
+
+ [MA] Mathieu: @Laura [New DA JAVA P6] il faut faire une user storie par fonctionnalité et un wireframe par fonctionnalité :smile:
+[20:21] [MA] Mathieu: Et avoir des règles de gestion par user stories
+
+[MA] Mathieu: C'est explicitement écris du côté mentor : chaque fonctionnalité doit avoir une US
+
+Je comprend pas la fonctionnalité qu’il demande « prendre des notes lors d’une session » . En gros il veut prendre des notes pendant la visioconférence mais sur l’appli?
+[20:41] [MA] Mathieu: Tout à fait, tu vois nous par exemple pendant vos sessions nous avons un compte rendu à faire. C'est ce qui se met à jour sur vos tableaux de bord.
+
+Alors on peut le remplir après, mais aussi pendant la session ça permet de rien oublier.
+[20:42] Laura [New DA JAVA P6]: Ah d’accord merci ! :grin:
+[20:45] [MA] Mathieu: En fait il y a un lien entre chaque composant demandé
+[20:45] [MA] Mathieu: Nomenclature -> model de domaine métier-> User Stories -> Règles de gestion -> Wireframe
+[20:46] [MA] Mathieu: Chaque composant permet d'aborder celui d'après
+
+]: Rêgles de gestion ? Je n'ai pas vu ça dans le projet.
+[20:50] Laura [New DA JAVA P6]: Ca doit etre les criteres d’acceptation
+[20:51] Pierre [NEW DA JAVA P4]: Ah ok.
+[20:51] Pierre [NEW DA JAVA P4]: Je vois.
+[20:51] Laura [New DA JAVA P6]: (fin je pense)
+[20:51] [MA] Mathieu: Critères d'acceptations oui
+[20:51] Pierre [NEW DA JAVA P4]: Ok.
+[20:52] [MA] Mathieu: En gros : qu'est-ce qui est nécessaire pour que la fonctionnalité soit validée
+
+
+Il faut utiliser la méthode given when then?
+Exactement
+[20:54] [MA] Mathieu: Le format ci-dessus "doit" être respecté
+[20:54] [MA] Mathieu: Pour la forme narrative et critère d'acceptation
+Par exemple en Mentor validateur sur ce projet : si le model de domaine métier est une diagramme de classe je valide car c'est très flou dans le sujet et ya pas de cours donc faut être indulgent
+Par contre s'il manque un wireframe ou une fonctionnalité : Baaaam la fessée
+
+Très précis, déjà tu peux enlever chaque lien ne commençant pas par un verbe (représentant une action)(voir jpeg modele)
+
+Un rendez-vous / session de mentorat peut être fusionné
+Car dans ce domaine métier précis un rendez-vous est une session
+
+Un étudiant et session tu as mis confirme, peut-être que "assiste" est plus approprié
+[22:52] [MA] Mathieu: Mais tout cela ce sont des détails
+
+
+le therme "métier" s'applique au métier de mentorat
+[22:54] [MA] Mathieu: La partie inscription / connexion peut ne pas être présente
+
+ps: l'inscription et la connexion doivent quand même faire parti des US / listing des fonctionnalités même si elles ne sont pas présentes dans ce diagramme
+[22:58] [MA] Mathieu: Un dernier conseil : quand tu rédiges ce document, essaie de te mettre à la place du "client". Bien souvent, ce genre de document sont faits pour "gagner" un appel d'offre, pour gagner un appel à projet.
+[22:59] [MA] Mathieu: Le plus important dans ce document, c'est à la fois l'exhaustivité des informations présentes par rapport à l'expression du besoin client, mais également la clarté des informations renseignées
+[22:59] [MA] Mathieu: le client doit se dire en lisant le document "Putain, Pierre a tout compris c'est à lui que je vais filer les 100k € pour le projet"
+[23:00] [MA] Mathieu: Pour atteindre cela, il faut que toi-même déjà tu puisses justifier chaque point de ton document en t'appuyant sur le besoin énoncé.
+[23:01] [MA] Mathieu: Cela reste abstrait ce que je dis, car c'est un état d'esprit à avoir plus qu'une pratique technique d'UML ou autre.
+[23:02] [MA] Mathieu: Le client, tu dois l'amener d'un simple listing de fonctionnalité que tu as créé, à un Wireframe final tout en passant par la nomenclature, le modèle de domaine métier, les US, les règles de gestion et le Wireframe. Le plus important c'est de construire des liens entre chacun des éléments, et ne pas les constuire les uns indépendamment des uatres.
+[23:02] [MA] Mathieu: Je sais pas si j'ai été clair ^^
+[23:04] [MA] Mathieu: tu as la fonctionnalité inscription : OK.
+Tu rédiges l'US inscription : email + mot de passe.
+Régles de gestion : l'email doit être rempli et l'email doit être unique. Sinon, affichage d'erreur.
+Wireframe : champ d'email et de MDP, bonus si tu modélises l'erreur.
+[23:05] [MA] Mathieu: voilà à peu près le cheminement de la réflexion.
+
+
+u: Que veux tu dire par mesurer le projet ? La réussite finale ?
+[14:46] Pierre [NEW DA JAVA P4]: Oui
+[14:47] Pierre [NEW DA JAVA P4]: J'avais demandé à mon mentor, mais je ne m'en souviens plus.
+[18:06] Pierre [NEW DA JAVA P4]: Il me semble que c'est en rapport au coût-qualité-délai.
+[18:06] Pierre [NEW DA JAVA P4]: Je ne me souviens plus vraiment.
+[18:43] [MA] Mathieu: Et tu peux rajouter : - reponse aux attentes du besoin
+
+Vous pouvez faire des écrans "mobile" dans le sens où aujourd'hui toutes les application sont responsives
+Je ne pense pas que cela soit rédhibitoire, le principal étant une cohérence entre les wireframes, les fonctionnalités et les règles de gestion
+[15:06] [MA] Mathieu: Après, la logique voudrait que les principaux outils de réalisation de sessions soient sur PC, donc une utilisation PC
+
+Exact :slight_smile: Bingo donc les deux sont viables
+[15:12] [MA] Mathieu: Soit en faisant directement les wireframes mobiles, soit en indiquant dans le document que le site développé sera responsive
+
+Spring c'est un framework de Java permettant de simplifier le développement et d'augmenter sa fiabilité, va pas chercher plus loin. On te demande de travailler avec Java, justifie le simplement par le fait que ca fait partie des exigences techniques de l'entreprise et ,que ca fait gagner du temps, qu'il suffira d'allouer des ressources déjà existantes. Apres, si tu veut vraiment faire une architecture assez poussée, je t'invite a te rapprocher des cours disponible avec les rédactions de cahiers des charges 
+
+
+Y'a pas de quoi, ce projet c'est pas une rédaction de cahier des charges c'est une proposition commerciale, tu dois justifier ton développement oui mais dans ce projet c'est déjà prédéfini. 
+
+C'est un modèle du domaine qui est demandé dans les livrables.
+Aide-toi tu cours    "Appliquez le principe du Domain-Driven Design à votre application" proposé.
+
+ une fonctionnalité --> user stories
+
+Oki en fait le use case c'est le modèle domaine
+[18:35] Géraud [OLD DA Java P7 ]: Non c'est un diagramme uml qui décrit comment les utilisateurs vont utiliser ton appli
+[18:36] Géraud [OLD DA Java P7 ]: https://images.app.goo.gl/ikBCwwtcnAU59i55A
+[18:38] Géraud [OLD DA Java P7 ]: 2 approches différentes, le story va être de la description texte sous forme d'histoire. 
+Le diagramme user case montre un peu la même chose sous forme de... Diagramme
+[22:05] Geoffroy [ NEW DA JAVA P5]: Ah dans le cours ils disent que le diagramme de use cases est une formalisation d'un modèle de domaine
+[10:08] Géraud [OLD DA Java P7 ]: En partie oui, mais à lui seul de diag Use Cases ne suffit pas à représenter le modèle domaine.
+Un PDF intéressant pour l'UML (en anglais) venant d'OMG (le consortium à la base des standards UML :
+https://www.omg.org/news/meetings/workshops/presentations/embedded-rt2002/02-1_Kobryn_UML_Tutorial.pdf
+Pour les Use Cases commence à la diapo 73
+
+
+Pour le domaine model j'utilise argouml. Il est pas mal foutu j'aime bien
+[14:59] Geoffroy [ NEW DA JAVA P5]: On peut cacher les opérations des classes facilement, ajouter les multiplicités et les bouger si leur emplacement ne va pas etc... Vraiment facile et clair
+[14:59] Nicolas [DA JAVA P5]: J'utilise draw.io perso, il est pas mal aussi.
+D'ailleurs j'ai quasiment fini mon modèle de domaine, j'espère je me suis pas foiré j'aurais les boules de devoir tout recommencer
+[15:00] Ludo [New DA JAVA P8]: draw.io est pas mal oui, https://app.lucidchart.com/ aussi
+[15:00] Arnaud [DA Java]: +1 pr draw.io aussi
+
+La même xD faut surtout se dire que le modèle de domaine ne contient pas de programmation. C'est pas un diagramme de classe mais pas loin.
+
+
+5]: Java Masterclass – Beginner To Expert Guide
+Become A Junior Java Software Developer
+The Java Design Patterns Course
+Java Programming Masterclass For Software Developers
+Java Web Services & Angular – Dynamic Web Development
+The Modern Javascript Bootcamp Course (2020)
+The Complete React Native + Hooks Course [2020 Edition]
+React Tutorial And Projects Course
+Complete React Developer In 2020 (W/ Redux, Hooks, GraphQL)
+Node.Js, Express, MongoDB & More: The Complete Bootcamp 2020
+The Python Mega Course: Build 10 Real World Applications
+un cours sur Docker et ce sera fini
+
+ Pour Spring je te conseille "Spring  Framework 5 : Beginner to Guru"Perso je l'ai acheté et je le regrette pas, je le trouve super bien foutu
+
+Ah oui, perso 1 wireframe = 1 fonctionnalité
+[17:07] Nicolas [DA JAVA P5]: Genre connexion = 1 wireframe, inscription, messagerie, espace perso, etc
+
+le glossaire c'est la nomenclature donc ca vas ta presque terminer c'est bien moi je bug sur ça Décrire la solution proposée.  Inclure le public cible et les avantages commerciaux de la solution. je sais qui faut regarder dans le fichier Proposition+au+comité+et+résultats+de+recherche plus précisément dans le lean canvas mais je suis perdu
+[12:14] Nicolas [DA JAVA P5]: Ben en gros tu expliques le but de ton application avec les fonctionnalités principales
+
+
+]: erf recallé pour le p3 :unamused:
+[11:48] Nicolas [DA JAVA P5]: ta eu ta soutenance ??
+[11:48] Geoffroy [ NEW DA JAVA P5]: je l'ai pasé mais je dois la repassé
+[11:48] Nicolas [DA JAVA P5]: ah merde
+[11:49] Nicolas [DA JAVA P5]: ca a peché sur quoi ?
+[11:51] Geoffroy [ NEW DA JAVA P5]: Il ma demander de rajouter un id pour les utilisateurs, et que le contrat de mentorat ne sois pas a rédiger mais que des champs a remplir pour personnaliser un contrat pré défini
+[11:52] Geoffroy [ NEW DA JAVA P5]: et améliorer les wireframes  que ce sois plus "graphique" plutot que en gris et noir quoi. Pas comme les wireframes du cours xD
+
+
+ c'est la wireframe de session vidéo mais faut que je la retravaille un peu ça fait pas trop session vidéo
+[19:22] Geoffroy [ NEW DA JAVA P5]: Ah oki tu intégré une fonctionnalité vidéo dans le projet ^^
+[19:30] Nicolas [DA JAVA P5]: google calendar pour le planning et google meet pour les sessions vidéos
+C’est écrit dans les itw que l’entreprise utilise Outlook pour fixer les rdv et skype pour les sessions
+
+
+Je m'y perd un peu dans le découpage des userstory. Un exemple. J'ai comme userstory "en tant qu'utilisateur, je veux programmer une session". Une fois que je l'ai programmé, je me rends compte que finalement je ne suis pas disponible. "je veux modifier ma session", ça va être une nouvelle userstory (et donc une nouvelle fonctionnalité si j'ai bien compris) ou juste un usecase de ma story?
+[15:55] Nicolas [DA JAVA P5]: Je sais pas si ma réponse va t'aider, mais par exemple une fonctionnalité = une user stories
+[15:56] Nicolas [DA JAVA P5]: Pour la connexion :
+
+je pense que c'est plus clair pour la présentation le tableau en effet
+[16:12] Jerem [Expert Jee]: En effet tes user story doivent être des fonctionnalités suffisamment petite, par exemple pour la sécurité, le fait de se connecter et de se déconnecter doivent être séparésséparé
+Pareille si tu prends le cas d'un CRUD, chaque section seront des users story différentes
+
+
+Juste par curiosité combien tu as de tables dans ton modèle de domaine ?
+[16:17] Noémie [DA JAVA P4]: 5, mais je pense que c'est amplement . Je suis pas dessus depuis longtemps.
+[16:18] Noémie [DA JAVA P4]: amplement paufinable
+[17:27] Nicolas [DA JAVA P5]: Je vois
+
+
+"une nomenclature du domaine métier pouvant être partagée avec l'équipe"
+@Nicolas [DA JAVA P5] In two words: UBIQUITOUS LANGUAGE!
+
+ce qu'ils appellent diagramme de conception technique, c'est le modèle de domaine?
+[14:16] Nicolas [DA JAVA P5]: Oui
+[14:16] Nicolas [DA JAVA P5]: Ca porte à confusion mais c'est bien le modèle de domaine
+
+Il a dit quele truc qui le genait un peu c'est lors de la création de contrat, du genre pourquoi il n'y a pas une étape avant la création du contrat qui consiste à choisir un mentoré
+[15:11] vianney [DA JAVA]: clairement c'est validé, normalement les mentors après une soutenance ont 3 choix :
+1 : c'est validé et tu vois la réponse immédiatement
+2 : c'est validé mais sous condition résultat tu verra rien tant qu'il ne passe pas la case validé
+3 : c'est non validé, comme pour 1 tu vois la réponse immédiatement et tu prends une autre soutenance avec lui dans les semaines qui suivent
+
+moi j'ai justifié ça comme ça : dans la fonctionnalité création de contrat, il y a une liste de mentoré qu'on peut trier par compétence, et on le choisis comme ça
+[15:12] Nicolas [DA JAVA P5]: mais apparement ça va pas, faut une étape AVANT la création de contrat pour choisir le mentoré
+
+Pour ma part, 12 pages (3 pour les users stories, 8 pour les wireframes).
+[15:44] Laura [New DA JAVA P6]: 25 pages pour moi
+
+En tant qu’utilisateur, je veux me connecter afin d’utiliser l’application  --> Scénario 1: Tentative de connexion avec email et mot de passe valide , Scénario 2: Email inconnu de la base de données des utilisateurs inscrits .... ETC
+
+
+Bon, j'ai montré les fonctionnalités et CA à mon mentor parce que j'avais vraiment l'impression d'écrire des conneries. Il m'a dit excellent travail. Donc à la fin de la journée, j'ai terminé ce P3 des enfers!!!
+
+Concernant le P3, perso je l'ai trouvé également très intéressant et pas si long que ça.
+L'inconvénient c'est qu'il souffre d'un manque total de cohérence dans sa rédaction ce qui amène beaucoup de questions et d'égarements.
+Le modèle du domaine dans ce projet doit être compris dans le contexte du Domain Driven Design et non dans celui de l'UML. Il y a maintenant un cours fourni qui est suffisant pour comprendre ce qui est attendu.
+La liste des fonctionnalités de base est déjà présente dans la note de synthèse. On peut en trouver d'autres suggérées dans les interviews. Faut pas se prendre la tête à inventer autre chose.
+Enfin les user story et les wireframes, j'ai trouvé ça sympa. De quoi titiller son côté créatif..
+
+en tout cas si tu sais pas par quoi commencer, fais déjà le modèle de domaine qui est demandé et qui correspond dans la doc à "diagramme de conception technique"
+[11:58] Nicolas [DA JAVA P5]: de ça ensuite tu auras tes fonctionnalités, puis tu pourras faire les user stories, etc
+[12:04] Nicolas [DA JAVA P5]: Et si on te dirige vers un modèle avec des tables des String des Int des tout ce que tu veux ben c'est pas ça qui est normalement attendu
+[12:04] Nicolas [DA JAVA P5]: Franchement c'est fou, je suis toujours incapable de nommer correctement un modèle de domaine ou un diagramme
+
+
+ce qu'ils appelent contrat de mentorat, c'est un document que tu remplis entre mentor et mentoré au début de la relation de mentorat qui va permettre de dénifir : durée du mentorat, fréquence du mentorat et objectifs du mentorat. Toi t'as pas à le remplir mais faut que tu prévois que tes binômes vont avoir besoin de définir ces éléments
+[10:39] Artemis[New Java P3]: merci Noémie, c'est vraiment claire
+[10:41] Artemis[New Java P3]: et deuxieme chose je trouve un web site pour wirefraime https://app.moqups.com/AexBsvsUzr/edit/page/a82e7cfa7 trouvez-vous utile ce site?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
