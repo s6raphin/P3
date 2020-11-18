@@ -9804,6 +9804,75 @@
 							"target": {
 								"$ref": "AAAAAAF11zumca/NZLk="
 							}
+						},
+						{
+							"_type": "UMLInteraction",
+							"_id": "AAAAAAF127/r3D/ymVM=",
+							"_parent": {
+								"$ref": "AAAAAAF11vQ2FaazXGE="
+							},
+							"name": "Interaction1",
+							"ownedElements": [
+								{
+									"_type": "UMLSequenceDiagram",
+									"_id": "AAAAAAF127/r3T/zs3w=",
+									"_parent": {
+										"$ref": "AAAAAAF127/r3D/ymVM="
+									},
+									"name": "TraiterLesSujetsAbordés",
+									"ownedViews": [
+										{
+											"_type": "UMLFrameView",
+											"_id": "AAAAAAF127/r3T/0h5A=",
+											"_parent": {
+												"$ref": "AAAAAAF127/r3T/zs3w="
+											},
+											"model": {
+												"$ref": "AAAAAAF127/r3T/zs3w="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF127/r3T/167g=",
+													"_parent": {
+														"$ref": "AAAAAAF127/r3T/0h5A="
+													},
+													"font": "Arial;13;0",
+													"left": 32.72998046875,
+													"top": 13,
+													"width": 143.58740234375,
+													"height": 13,
+													"text": "TraiterLesSujetsAbordés"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAF127/r3T/2QRs=",
+													"_parent": {
+														"$ref": "AAAAAAF127/r3T/0h5A="
+													},
+													"font": "Arial;13;1",
+													"left": 13,
+													"top": 13,
+													"width": 14.72998046875,
+													"height": 13,
+													"text": "sd"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 8,
+											"top": 8,
+											"width": 692,
+											"height": 592,
+											"nameLabel": {
+												"$ref": "AAAAAAF127/r3T/167g="
+											},
+											"frameTypeLabel": {
+												"$ref": "AAAAAAF127/r3T/2QRs="
+											}
+										}
+									]
+								}
+							]
 						}
 					]
 				},
